@@ -1,0 +1,7 @@
+xpack.security.enabled=false
+discovery.type=single-node
+ES_JAVA_OPTS=-Xms3g -Xmx3g  #  ограничиваем потребление памяти в 3Гб
+
+ELASTIC_MOVIES_INDEX=movies
+ELASTIC_GENRES_INDEX=genres
+ELASTIC_PERSONS_INDEX=persons
